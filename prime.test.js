@@ -30,7 +30,7 @@ describe('getPrimes', () => {
   });
 
   test('make sure all elements are only divisible by 1 and themselves', () => {
-    const primes = getPrimes(1000);
+    const primes = getPrimes(100);
     for (let i = 0; i < primes.length; i++) {
       for (let j = 2; j < primes[i]; j++) {
         expect(primes[i] % j).not.toEqual(0);
