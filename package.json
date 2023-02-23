@@ -1,0 +1,22 @@
+{
+  "name": "primes-table",
+  "version": "1.0.0",
+  "description": "An application that takes a numeric input (N) from a user and outputs a multiplication table of (N) prime numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesbaylor/primes-table.git"
+  },
+  "author": "James Baylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesbaylor/primes-table/issues"
+  },
+  "homepage": "https://github.com/jamesbaylor/primes-table#readme",
+  "dependencies": {
+    "jest": "^29.4.3"
+  }
+}
